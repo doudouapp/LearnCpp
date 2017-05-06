@@ -28,3 +28,4 @@ Git 分支的创建和合并
    删除分支：git branch -d branchName
 
 2. 解决冲突
+   存在冲突时，在本地文件修改后，再继续add，commit 即可
