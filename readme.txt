@@ -27,4 +27,4 @@ Git 分支的创建和合并
    合并某分支到当前分支：git merge branchName
    删除分支：git branch -d branchName
 
-2. 这是master上的修改
+2. 解决冲突
