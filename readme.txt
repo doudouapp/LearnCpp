@@ -16,3 +16,11 @@ Git 远程仓库
 3. 将公钥放入github的账户中
 4. 关联仓库 git remote add origin git@github.com:doudouapp/LearnCpp.git
 5. 推送至仓库 git push -u origin master
+
+Git 分支的创建和合并
+
+1. git checkout -b branchName
+   git checkout 命令加上-b 参数表示创建并切换，相当于以下两条命令：
+   git branch branchName
+   git checkout branchName
+   用 git branch 命令查看当前分支   
