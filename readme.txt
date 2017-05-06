@@ -19,8 +19,10 @@ Git 远程仓库
 
 Git 分支的创建和合并
 
-1. git checkout -b branchName
-   git checkout 命令加上-b 参数表示创建并切换，相当于以下两条命令：
-   git branch branchName
-   git checkout branchName
-   用 git branch 命令查看当前分支   
+1. 分支操作指令
+   查看分支： git branch
+   创建分支： git branch branchName
+   切换分支： git checkout branchName
+   创建并切换分支： git checkout -b branchName
+   合并某分支到当前分支：git merge branchName
+   删除分支：git branch -d branchName
