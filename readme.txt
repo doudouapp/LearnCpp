@@ -26,3 +26,5 @@ Git 分支的创建和合并
    创建并切换分支： git checkout -b branchName
    合并某分支到当前分支：git merge branchName
    删除分支：git branch -d branchName
+
+2. 解决冲突
