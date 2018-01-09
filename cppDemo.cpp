@@ -93,7 +93,7 @@ int main(int argc, char const *argv[]) {
   int a[6] = {3,6,2,9,1,5};
   // bubbleSort(a, 6);
   // insertionSort(a,6);
-  selectionSort(a,6);
+  // selectionSort(a,6);
   // quickSort(a,0,5);
   for (int i = 0; i < 6; i++) {
     std::cout << a[i] << ',';
